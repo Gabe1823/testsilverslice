@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html> 
+<head>
+<title>Silver Slice Bakery</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Karma">
+<style>
+body,h1,h2,h3,h4,h5,h6 {font-family: "Karma", sans-serif}
+.w3-bar-block .w3-bar-item {padding:20px}
+</style>
+</head>
+<body>
+
+<!-- Sidebar (hidden by default) -->
+<nav class="w3-sidebar w3-bar-block w3-card w3-top w3-xlarge w3-animate-left" style="display:none;z-index:2;width:40%;min-width:300px" id="mySidebar">
+  <a href="javascript:void(0)" onclick="w3_close()"
+  class="w3-bar-item w3-button">Close Menu</a>
+  <a href="#food" onclick="w3_close()" class="w3-bar-item w3-button">Food</a>
+  <a href="#owner" onclick="w3_close()" class="w3-bar-item w3-button">Owner Biography</a>
+  <a href="#business" onclick="w3_close()" class="w3-bar-item w3-button">Business Biography</a>
+</nav>
+
+<!-- Top menu -->
+<div class="w3-top">
+  <div class="w3-white w3-xlarge" style="max-width:1200px;margin:auto">
+    <div class="w3-button w3-padding-16 w3-left" onclick="w3_open()">☰</div>
+    <div class="w3-right w3-padding-16">Mail</div>
+    <div class="w3-center w3-padding-16">Silver Slice Bakery</div>
+  </div>
+</div>
+  
+<!-- !PAGE CONTENT! -->
+<div class="w3-main w3-content w3-padding" style="max-width:1200px;margin-top:100px">
+
+  <!-- First Photo Grid-->
+  <div class="w3-row-padding w3-padding-16 w3-center" id="food">
+    <div class="w3-quarter">
+      <img src="https://www.kingarthurbaking.com/sites/default/files/styles/featured_image/public/recipe_legacy/1418-3-large.jpg?itok=0Wu0aWUo" alt="Sandwich" style="width:100%">
+      <h3>Gluten Free Pizza
+	  </h3> Price 
+	       18.70
+      <p>   gluten free pizza is made with a combination of gluten free flours and starches like rice flour, almond flour, potato starch, and tapioca starch.</p>
+    </div>
+    <div class="w3-quarter">
+      <img src="https://mail.google.com/mail/u/0?ui=2&ik=f0972d29bf&attid=0.3&permmsgid=msg-f:1740623901701713514&th=1827f037647c2e6a&view=fimg&fur=ip&sz=s0-l75-ft&attbid=ANGjdJ9D8qyvGCSqHwkpCSM90MysuOgfoU-tt53hz8rzshWW2p_uvnRCr9I3-Ak36BP25eOmETpwwHC4FVV0a47pkb9YwiudI8cNYduWySQYX4pxzu8hwBtJzDSy3Bk&disp=emb&realattid=1827f02ec53f3a3f1d73" alt="Steak" style="width:100%">
+     <h3>Croissant</h3>
+	     Price 4.29
+        <p>A croissant is a buttery, flaky, French viennoiserie pastry inspired by the shape of the Austrian kipferl but using the French yeast-leavened laminated dough. </p>
+    </div>
+    <div class="w3-quarter">
+      <img src="https://mail.google.com/mail/u/0?ui=2&ik=f0972d29bf&attid=0.19&permmsgid=msg-f:1740623901701713514&th=1827f037647c2e6a&view=fimg&fur=ip&sz=s0-l75-ft&attbid=ANGjdJ-QzCSyWmrKvhNfaO6iMM0jYN9NI_WiWThDIwOOEmd9uPtZdKG5hKbLqHBwVwgYQTKh7h2xPNYaLBjNY-spQKcuFO_zo0-kTf6tf3Rjc3PNUJ8YzOi1fdJ5N-s&disp=emb&realattid=1827f02ec60610fd2b213" alt="Cherries" style="width:100%">
+      <h3>Cake
+	  Price 10.00
+	  </h3>
+      <p>Cake is a flour confection made from flour, sugar, and other ingredients, and is usually baked. </p>
+      <p></p>
+    </div>
+    <div class="w3-quarter">
+      <img src="https://mail.google.com/mail/u/0?ui=2&ik=f0972d29bf&attid=0.8&permmsgid=msg-f:1740623901701713514&th=1827f037647c2e6a&view=fimg&fur=ip&sz=s0-l75-ft&attbid=ANGjdJ_le87hVwzIHjPcw3GEwTsWMCK9N6PIxvgjdcFoM35ztR8yMRUWDsNadh1b5oaYFw0_VIaXGG5OOa5rkumw7Uj8QUm3AyOve4Rj3N2TKbo3FCJwtipDmBjDhZk&disp=emb&realattid=1827f02ec5ed62bd708" alt="Pasta and Wine" style="width:100%">
+      <h3>Pie
+	     Price 12.00</h3>
+      <p>A pie is a baked dish which is usually made of a pastry dough casing that contains a filling of various sweet or savoury ingredients.</p>
+    </div>
+  </div>
+  
+  <!-- Second Photo Grid-->
+  <div class="w3-row-padding w3-padding-16 w3-center">
+    <div class="w3-quarter">
+      <img src="https://mail.google.com/mail/u/0?ui=2&ik=f0972d29bf&attid=0.10&permmsgid=msg-f:1740623901701713514&th=1827f037647c2e6a&view=fimg&fur=ip&sz=s0-l75-ft&attbid=ANGjdJ9t-dttBdsoytlUjGK3rbzFz9hw43wvNHAWZOYlzfBOwr74oi7W93ZB1QxhFVbr2LN7UpMg97J8L8C-T8_QEdIKTp2wyKeFFoksafQbcaWNCV_NK2AyHeuj0a4&disp=emb&realattid=1827f02ec5e4e867b7aa" alt="Popsicle" style="width:100%">
+      <h3>Bread
+	  Price 5.00</h3>
+      <p>Bread is a staple food prepared from a dough of flour and water, usually by baking</p>
+    </div>
+    <div class="w3-quarter">
+      <img src="https://mail.google.com/mail/u/0?ui=2&ik=f0972d29bf&attid=0.5&permmsgid=msg-f:1740623901701713514&th=1827f037647c2e6a&view=fimg&fur=ip&sz=s0-l75-ft&attbid=ANGjdJ90Bo3RN1GRfDch8tg6Tsf1MDkOynJv7ptZqq7bcAhM2pk8yEerCoXM0eeeBcrhztyCxIg48o_nM7UOpts1o7tke4ejBOLXzHxPRi-rnOyQcL8NtWwiPOgoN1c&disp=emb&realattid=1827f02ec5da1fbd5b75" alt="Salmon" style="width:100%">
+      <h3>Cookies
+	  Price 2.00</h3>
+      <p>A cookie is a baked or cooked snack or dessert that is typically small, flat and sweet. It usually contains flour.</p>
+    </div>
+    <div class="w3-quarter">
+      <img src="https://mail.google.com/mail/u/0?ui=2&ik=f0972d29bf&attid=0.7&permmsgid=msg-f:1740623901701713514&th=1827f037647c2e6a&view=fimg&fur=ip&sz=s0-l75-ft&attbid=ANGjdJ8ig2-44HgLK6WbbQe9LHbsvuYhyvuBQJ-yifdAjFhf3NvGsFpjpnHf-6_PivFi1YD0Qd4TLeUCta9M8BToUH4-skHfr_sjKCp799eOY4VrFro5GOuxGatThUo&disp=emb&realattid=1827f02ec5e564b6b977" alt="Sandwich" style="width:100%">
+      <h3>Muffins
+	  Price 5.00</h3>
+      <p>A muffin is an individually portioned baked product, however the term can refer to one of two distinct items: a part-raised flatbread that is baked and then cooked on a griddle,</p>
+    </div>
+    <div class="w3-quarter">
+      <img src="https://www.thespruceeats.com/thmb/LztCwx-RV2XEcA9MuOG5Oqf7D44=/1606x1070/filters:fill(auto,1)/quick-cinnamon-rolls-3053776-81543bd7548c4b7fa95b8c51aaec316d.jpg" alt="Croissant" style="width:100%">
+      <h3>Cinnamon Rolls
+	  Price 7.00</h3>
+      <p>A cinnamon roll is a sweet roll commonly served in Northern Europe and North America..</p>
+    </div>
+  </div>
+
+  
+
+  <!-- About Section -->
+  <div class="w3-container w3-padding-32 w3-center">  
+    <h3>About Me, The Food Man</h3><br>
+    <img src="tonya.jpg"170" height="170" style="border:0; margin-left: auto; margin-right: auto; display: block;">
+    <div class="w3-padding-32">
+	
+	
+	<div class="w3-container w3-padding-32 w3-center" id="owner">
+      <h4><b>Business Biography</b></h4>
+      <h6><i>With Passion For Real, Good Food</i></h6>
+      <p>My bakery has been developing look-a-like gluten-free products since 2009. Since the pandemic,the company has been developing and wholesaling gluten-free and plant based-foods with a focus on pizzas. The company wants to satisfy the growing demand during uncertain times by wanting to increase affordable health food to low income communities locally, regionally and nationally. With the growth plan will be able to create jobs.Having a resilient food brand is the solution in order to move through uncertain times with confidence and predictability. The company wants to commit to the future,rethink risk and embrace collaboration that can help my small company fight above weight class,embrace new technologies and unlock growth.My company has been pivoting through the changing COVID 19 safety rules, mask requirements and vaccine mandates, supply chain delays, rising inflation,a labor shortage and other challenges as it clawed its way to victory.<p>
+	  <div class="w3-padding-32">
+	  
+	  <div class="w3-container w3-padding-32 w3-center" id=business>
+	  <h1><b>Owner Biography </b></h1>
+	  
+	  
+	  
+	  <p>
+	   I found my life’s purpose by accident 2008-2009, when I enrolled in Seattle Culinary Academy at Seattle Central C.C. I was working as a mortgage loan officer and was talking folks out of subprime loans, thus I was not making any money😩. I told my mother my woes and she suggested I take a course at a community college to “try and find yourself” is what she retorted🤣😂. I fell in love with bread baking. While in culinary school, I expanded my culinary knowledge and gained catering experience at Ray’s Boathouse and Catering and Mt Meadows Catering( Microsoft, AlaskaAir, Boeing & Expedia preferred caterer). Before graduating the pastry program, the students had to complete a gluten-free nutritional project. After graduating I continued to recipe test which include various use of alternative flour blends that most bakers use, white rice, tapioca starch, potato starch, brown rice and so forth. At the time I just wanted to create a decent bread folks could eat. After giving out samples to my mom’s gluten-free co-workers I received an unbelievable amount of requests. Can you make cinnamon rolls, cookies, muffins? and the request from my aunt’s co-workers, their friends and their friends and more referrals kept coming in. I remember a lady yelling at me on the phone “ Do you realize what you’ve done!” So I started a business to fulfill a need. I did not want to be view as a “me too” bakery that was associated with the negative connotations from gluten-free foods. The foods I created were “Special”  and I did not want to only appeal to the 7% of folks that have Celiac Disease or folks with a gluten- intolerance but sell to the 29% of folks that bought gluten-free for other reasons. I wanted to create products that  my competitors were not manufacturing not available in  the market such as European and French style pastries, breads and desserts such as croissants, baguettes and puff pastry. 
+
+My entrepreneurial journey begin at Ventures Nonprofit, an 8-week business development training course which led to opening a retail Store at Pike Place Market (2012-2015) more retails store in Burien and Seattle. All retail stores are closed and I focused on wholesaling to expand my products reach.  I’ve participated in Seattle University’s Entrepreneurial Clinic, several business consulting programs at University of Washington Foster School of Business and  mentors & training at Seattle SCORE and Thurston County SBDC. 
+
+I realized very quickly that success is always under construction so I continue to participate in online webinars, workshops, special events and have built allegiance with various organizations such as Seattle Good Business Network, Elevate D.I.D., Seattle Urban League, Business Impact NW, PTAC, Impact Washington and Ezell’s R.U.B.B. Black Initiative Community.
+
+I’ve wholesaled sandwiches to Centerplate, concessionaires to Seattle Mariners and continue to service Seattle Hyatt Hotels and restaurants with gluten-free pastries and frozen, par-baked wood fire pizza crusts. Making pizza crusts has led me to a co-branding deal with Hormel Foods. I plan to market frozen gluten-free and spinach plant-based pizzas using Hormel’s Happy Little Plants plant-based pepperoni, Italian sausage crumbles and chorizo toppings. 
+
+Courtesy of the Hyatt Seattle Regency Hotel I was a guest chef for “Amazon Shine” a two day event highlighting over 400 black women executives. I am a retailer on Amazon thanks to the Black Accelerator Program. I’ve been featured in numerous online blogs and food recommended platforms such as Yelp and winning a Certificate of Excellence 2014 from TripAdvisor plus articles from local news and magazines such as KOMO News, CNN Money Blog and Seattle Met.
+
+I think that is all for now. Ask me questions and I may remember some other details😂
+
+Talk with you soon!!
+	 </p>
+<div class="w3-padding-32">
+
+ 
+    </div>
+  </div>
+  <hr>
+  
+  <!-- Footer -->
+  <footer class="w3-row-padding w3-padding-32">
+    <div class="w3-third">
+      <h3>Contact</h3>
+      <p> Email: tonyia@silverslicebakery.com
+	      Business Phone Number: 206-802-8666
+		  PO Box 20311,Seattle,WA 98102
+		  Tonya Smith</p>
+      <p>Powered by <a href="https://www.w3schools.com/w3css/default.asp" target="_blank">w3.css</a></p>
+    </div>
+  
+    <div class="w3-third">
+      
+
+   
+
+<!-- End page content -->
+</div>
+
+<script>
+// Script to open and close sidebar
+function w3_open() {
+  document.getElementById("mySidebar").style.display = "block";
+}
+ 
+function w3_close() {
+  document.getElementById("mySidebar").style.display = "none";
+}
+</script>
+
+</body>
+</html>

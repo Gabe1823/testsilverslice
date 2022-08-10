@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html> 
+<head>
+<title>Silver Slice Bakery</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Karma">
+<style>
+body,h1,h2,h3,h4,h5,h6 {font-family: "Karma", sans-serif}
+.w3-bar-block .w3-bar-item {padding:20px}
+</style>
+</head>
+<body>
+
+<!-- Sidebar (hidden by default) -->
+<nav class="w3-sidebar w3-bar-block w3-card w3-top w3-xlarge w3-animate-left" style="display:none;z-index:2;width:40%;min-width:300px" id="mySidebar">
+  <a href="javascript:void(0)" onclick="w3_close()"
+  class="w3-bar-item w3-button">Close Menu</a>
+  <a href="#food" onclick="w3_close()" class="w3-bar-item w3-button">Food</a>
+  <a href="#about" onclick="w3_close()" class="w3-bar-item w3-button">About</a>
+</nav>
+
+<!-- Top menu -->
+<div class="w3-top">
+  <div class="w3-white w3-xlarge" style="max-width:1200px;margin:auto">
+    <div class="w3-button w3-padding-16 w3-left" onclick="w3_open()">☰</div>
+    <div class="w3-right w3-padding-16">Mail</div>
+    <div class="w3-center w3-padding-16">Silver Slice Bakery</div>
+  </div>
+</div>
+  
+<!-- !PAGE CONTENT! -->
+<div class="w3-main w3-content w3-padding" style="max-width:1200px;margin-top:100px">
+
+  <!-- First Photo Grid-->
+  <div class="w3-row-padding w3-padding-16 w3-center" id="food">
+    <div class="w3-quarter">
+      <img src="https://www.kingarthurbaking.com/sites/default/files/styles/featured_image/public/recipe_legacy/1418-3-large.jpg?itok=0Wu0aWUo" alt="Sandwich" style="width:100%">
+      <h3>Gluten Free Pizza
+	  </h3> Price 18.70
+      <p>gluten free pizza is made with a combination of gluten free flours and starches like rice flour, almond flour, potato starch, and tapioca starch.</p>
+    </div>
+    <div class="w3-quarter">
+      <img src="https://biancolievito.com/wp-content/uploads/2016/04/shutterstock_574919893.jpg" alt="Steak" style="width:100%">
+      <h3>Crusant<h3>
+	      Price 4.29
+         <p>A croissant is a buttery, flaky, French viennoiserie pastry inspired by the shape of the Austrian kipferl but using the French yeast-leavened laminated dough</p>
+    </div>
+    <div class="w3-quarter">
+      <img src="https://hugsandcookiesxoxo.com/wp-content/uploads/2018/10/oreo-cake-1.jpg" alt="Cherries" style="width:100%">
+      <h3>Cake
+	  Price 10.00
+	  </h3>
+      <p>Cake is a flour confection made from flour, sugar, and other ingredients, and is usually baked. </p>
+      <p></p>
+    </div>
+    <div class="w3-quarter">
+      <img src="images/pie.jpg" alt="Pasta and Wine" style="width:100%">
+      <h3>Pie
+	      Price 12.00</h3>
+      <p>A pie is a baked dish which is usually made of a pastry dough casing that contains a filling of various sweet or savoury ingredients.</p>
+    </div>
+  </div>
+  
+  <!-- Second Photo Grid-->
+  <div class="w3-row-padding w3-padding-16 w3-center">
+    <div class="w3-quarter">
+      <img src="https://houseofnasheats.com/wp-content/uploads/2022/02/French-Bread-1.jpg" alt="Popsicle" style="width:100%">
+      <h3>bread
+	  Price 5.00</h3>
+      <p>Bread is a staple food prepared from a dough of flour and water, usually by baking</p>
+    </div>
+    <div class="w3-quarter">
+      <img src="https://handletheheat.com/wp-content/uploads/2020/10/BAKERY-STYLE-CHOCOLATE-CHIP-COOKIES-9-637x637-1.jpg" alt="Salmon" style="width:100%">
+      <h3>Cookies
+	  Price 2.00</h3>
+      <p>Once again, some random text to lorem lorem lorem lorem ipsum text praesent tincidunt ipsum lipsum.</p>
+    </div>
+    <div class="w3-quarter">
+      <img src="https://www.eatingonadime.com/wp-content/uploads/2021/05/blueberry-muffins-4-2.jpg" alt="Sandwich" style="width:100%">
+      <h3>Muffins
+	  Price 5.00</h3>
+      <p>Just some random text, lorem ipsum text praesent tincidunt ipsum lipsum.</p>
+    </div>
+    <div class="w3-quarter">
+      <img src="https://www.thespruceeats.com/thmb/LztCwx-RV2XEcA9MuOG5Oqf7D44=/1606x1070/filters:fill(auto,1)/quick-cinnamon-rolls-3053776-81543bd7548c4b7fa95b8c51aaec316d.jpg" alt="Croissant" style="width:100%">
+      <h3>Cinnamon Rolls
+	  Price 7.00</h3>
+      <p>A cinnamon roll is a sweet roll commonly served in Northern Europe and North America..</p>
+    </div>
+  </div>
+
+  <!-- Pagination -->
+  <div class="w3-center w3-padding-32">
+    <div class="w3-bar">
+      <a href="#" class="w3-bar-item w3-button w3-hover-black">«</a>
+      <a href="#" class="w3-bar-item w3-black w3-button">1</a>
+      <a href="#" class="w3-bar-item w3-button w3-hover-black">2</a>
+      <a href="#" class="w3-bar-item w3-button w3-hover-black">3</a>
+      <a href="#" class="w3-bar-item w3-button w3-hover-black">4</a>
+      <a href="#" class="w3-bar-item w3-button w3-hover-black">»</a>
+    </div>
+  </div>
+  
+  <hr id="about">
+
+  <!-- About Section -->
+  <div class="w3-container w3-padding-32 w3-center">  
+    <h3>About Me, The Food Man</h3><br>
+    <img src="/w3images/chef.jpg" alt="Me" class="w3-image" style="display:block;margin:auto" width="800" height="533">
+    <div class="w3-padding-32">
+      <h4><b>Business Biography</b></h4>
+      <h6><i>With Passion For Real, Good Food</i></h6>
+      <p>My bakery has been developing look-a-like gluten-free products since 2009. Since the pandemic,the company has been developing and wholesaling gluten-free and plant based-foods with a focus on pizzas. The company wants to satisfy the growing demand during uncertain times by wanting to increase affordable health food to low income communities locally, regionally and nationally. With the growth plan will be able to create jobs.Having a resilient food brand is the solution in order to move through uncertain times with confidence and predictability. The company wants to commit to the future,rethink risk and embrace collaboration that can help my small company fight above weight class,embrace new technologies and unlock growth.My company has been pivoting through the changing COVID 19 safety rules, mask requirements and vaccine mandates, supply chain delays, rising inflation,a labor shortage and other challenges as it clawed its way to victory.<p>
+</p>
+    </div>
+  </div>
+  <hr>
+  
+  <!-- Footer -->
+  <footer class="w3-row-padding w3-padding-32">
+    <div class="w3-third">
+      <h3>Contact</h3>
+      <p> Email: tonyia@silverslicebakery.com
+	      Business Phone Number: 206-802-8666
+		  PO Box 20311,Seattle,WA 98102
+		  Tonya Smith</p>
+      <p>Powered by <a href="https://www.w3schools.com/w3css/default.asp" target="_blank">w3.css</a></p>
+    </div>
+  
+    <div class="w3-third">
+      <h3>BLOG POSTS</h3>
+      <ul class="w3-ul w3-hoverable">
+        <li class="w3-padding-16">
+          <img src="/w3images/workshop.jpg" class="w3-left w3-margin-right" style="width:50px">
+          <span class="w3-large">Lorem</span><br>
+          <span>Sed mattis nunc</span>
+        </li>
+        <li class="w3-padding-16">
+          <img src="/w3images/gondol.jpg" class="w3-left w3-margin-right" style="width:50px">
+          <span class="w3-large">Ipsum</span><br>
+          <span>Praes tinci sed</span>
+        </li> 
+      </ul>
+    </div>
+
+    <div class="w3-third w3-serif">
+      <h3>POPULAR TAGS</h3>
+      <p>
+        <span class="w3-tag w3-black w3-margin-bottom">Travel</span> <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom">New York</span> <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom">Dinner</span>
+        <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom">Salmon</span> <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom">France</span> <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom">Drinks</span>
+        <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom">Ideas</span> <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom">Flavors</span> <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom">Cuisine</span>
+        <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom">Chicken</span> <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom">Dressing</span> <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom">Fried</span>
+        <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom">Fish</span> <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom">Duck</span>
+      </p>
+    </div>
+  </footer>
+
+<!-- End page content -->
+</div>
+
+<script>
+// Script to open and close sidebar
+function w3_open() {
+  document.getElementById("mySidebar").style.display = "block";
+}
+ 
+function w3_close() {
+  document.getElementById("mySidebar").style.display = "none";
+}
+</script>
+
+</body>
+</html>
